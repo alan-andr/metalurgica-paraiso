@@ -15,7 +15,7 @@
     --cor06: #FF0000;
     --cor07: #FBFFF1;
     --cor08: #E8EEF2;
-    --cor09: #30343F;
+    --cor09: #E4DFDA;
 }
 
 
@@ -81,12 +81,21 @@ main {
 main h4 {
     background-image: linear-gradient(to right, #FF0000, #FF0000, transparent);
     width: 110px;
-    padding: 1px;
     padding-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: var(--cor08);
 }
+
+main article {
+    background-color: #E4DFDA;
+    max-width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
 
 
 
