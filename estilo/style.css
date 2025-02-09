@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -16,6 +18,9 @@
     --cor07: #FBFFF1;
     --cor08: #E8EEF2;
     --cor09: #E4DFDA;
+
+    --font-title: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    --font-text: 'Jura', Arial, Helvetica, sans-serif;
 }
 
 
@@ -32,6 +37,7 @@ header {
 }
 
 header h1 {
+    font-family: var(--font-title);
     padding-top: 70px;
     font-size: 3.5em;
     font-weight: bold;
@@ -40,6 +46,7 @@ header h1 {
 }
 
 header p {
+    font-family: var(--font-text);
     color: white;
     text-shadow: 1px 1px 1px black;
     font-size: 1.1em;
@@ -56,6 +63,8 @@ nav {
 }
 
 nav a {
+    font-family: var(--font-text);
+    font-weight: bolder;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -73,12 +82,26 @@ nav a:hover {
 }
 
 main {
+    font-family: var(--font-text);
     background-color: var(--cor08);
     line-height: 2em;
     padding: 10px;
 }
 
+main > section > h2 {
+    font-family: var(--font-title);
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main > section > p{
+    text-indent: 20px;
+    text-align: center;
+}
+
 main h4 {
+    font-family: var(--font-title);
     background-image: linear-gradient(to right, #FF0000, #FF0000, transparent);
     width: 110px;
     padding-left: 10px;
@@ -87,15 +110,24 @@ main h4 {
     color: var(--cor08);
 }
 
+
+
 main article {
     background-color: #E4DFDA;
-    max-width: 800px;
+    max-width: 700px;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
-    
+    box-shadow: 3px 2px 15px rgba(0, 0, 0, 0.362);
 }
 
+footer p {
+
+    text-align: center;
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+}
 
 
 
