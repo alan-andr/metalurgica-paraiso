@@ -16,6 +16,7 @@
     --cor03: #B01324;
     --cor04: #A10214;
     --cor05: #A20010;
+    -corh: #D80032;
     --cor06: #FF0000;
     --cor07: #FBFFF1;
     --cor08: #E8EEF2;
@@ -37,12 +38,13 @@ header {
     background-image: linear-gradient(to right, #FF0000,#FFA500);
     min-height: 200px;
     text-align: center;
+
 }
 
 header h1 {
     font-family: var(--font-title2);
     padding-top: 70px;
-    font-size: 4.5em;
+    font-size: 3.8em;
     font-weight: 800;
     font-variant: small-caps;
     text-shadow: 1px 1px 1px black;
@@ -68,10 +70,8 @@ header p {
 nav {
     background-image: linear-gradient(to right, #FF0000,#FFA500);
     padding: 15px;
-    padding-left: 40px;
+    padding-left: 50px;
 
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 
 nav a {
@@ -100,29 +100,38 @@ main {
 }
 
 main > section > h2 {
-    font-family: var(--font-title);
+    color: #ff0000;;
+    font-family: var(--font-text);
     font-size: 2.5em;
-    padding-left: 10px;
-    margin-top: 20px;
+    font-variant: normal;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    margin-top: 150px;
     text-align: center;
+}
 
+main > section > h3 {
+    color: #ff0000;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 main > section > p {
     font-size: 1.1em;
     text-indent : 20px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
 }
 
 main h4 {
-    font-family: var(--font-title);
-    background-image: linear-gradient(to right, #FF0000, #FF0000, transparent);
+    font-family: var(--font-text);
+    font-size: 1.5em;
+
     width: 110px;
     padding-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: var(--cor08);
+    color: white;
 }
 
 
@@ -142,12 +151,15 @@ div.div2 {
 }
 
 main article {
-    background-color: #E4DFDA;
+    background-image: radial-gradient(circle,#ff0000ad , #ff0000);
     max-width: 700px;
+    text-indent: 20px;
+    font-size: 1.1em;
+    color: white;
     padding: 10px;
     border-radius: 10px;
     margin: 12px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.227);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.416);
 }
 
 main img {
@@ -174,7 +186,8 @@ div.map-container iframe {
 main h3 {
     font-size: 2em;
     text-align: center;
-    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 
@@ -187,6 +200,13 @@ div.fundo-mapa {
     margin: 0px;
     border-radius: 15px;
     text-align: center;
+    margin-bottom: 100px;
+}
+
+div.fundo-mapa p {
+
+    padding: 25px;
+    font-size: 1.2em;
 }
 
 footer p {
