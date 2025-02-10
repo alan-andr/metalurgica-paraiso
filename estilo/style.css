@@ -129,9 +129,7 @@ main h4 {
     font-size: 1.5em;
 
     width: 110px;
-    padding-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 20px;
     color: white;
 }
 
@@ -152,14 +150,14 @@ div.div2 {
 }
 
 main article {
-    background-image: radial-gradient(circle,#ff0000ad , #ff0000);
+    background-image: radial-gradient(circle, #BA4033, #B01324);
     max-width: 700px;
     text-indent: 20px;
     font-size: 1.1em;
     color: white;
     padding: 10px;
-    border-radius: 10px;
-    margin: 12px;
+    border-radius: 5px;
+    margin: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.416);
 }
 
