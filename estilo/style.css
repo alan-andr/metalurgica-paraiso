@@ -145,10 +145,6 @@ div.container {
     flex-wrap: wrap; /* Permite quebrar linha se necessário */
 }
 
-div.container h4.box {
-    position: absolute;
-    top: 155%;
-}
 
 div.container2 {
     display: flex;
@@ -163,9 +159,8 @@ main article {
     background-image: radial-gradient(circle, #BA4033, #B01324);
     max-width: 600px;
     padding: 10px;
-    border-radius: 5px;
-    margin: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.416);
+    
+    
 }
 
 main img {
