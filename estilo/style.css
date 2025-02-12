@@ -106,7 +106,7 @@ main {
 main > section > h2 {
     color: #ff0000;;
     font-family: var(--font-text);
-    font-size: 2.5em;
+    font-size: 2.8em;
     font-variant: normal;
     font-weight: bolder;
     padding-bottom: 20px;
@@ -116,6 +116,7 @@ main > section > h2 {
 
 main > section > h3 {
     color: #ff0000;
+    font-size: 2.5em;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -125,42 +126,46 @@ main > section > p {
     text-indent : 20px;
     text-align: center;
     margin-bottom: 150px;
+
 }
 
 main h4 {
     font-family: var(--font-text);
-    font-size: 1.5em;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #FF0000;
+    font-size: 2em;
+    text-align: start;
+
+    padding-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    color: #ff0000;
+    
 }
 
 
-div.container {
-    display: flex;
-    justify-content: space-evenly; /* Centraliza horizontalmente */
-    justify-content: center;
-    align-items: center; /* Centraliza verticalmente */
-    flex-wrap: wrap; /* Permite quebrar linha se necessário */
+
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: space;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 150px;
 }
 
-
-div.container2 {
-    display: flex;
-    justify-content: space-evenly; /* Centraliza horizontalmente */
-    justify-content: center;
-    align-items: center; /* Centraliza verticalmente */
-    flex-wrap: wrap; /* Permite quebrar linha se necessário */
-    margin-bottom: 150px;
+.container img {
+        max-width: 600px; /* Ajuste a largura conforme necessário */
+        flex-wrap: wrap;
 }
+
 
 main article {
     background-image: radial-gradient(circle, #BA4033, #B01324);
     max-width: 600px;
-    padding: 10px;
-    
-    
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 
 main img {
