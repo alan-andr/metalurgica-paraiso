@@ -130,34 +130,38 @@ main > section > p {
 main h4 {
     font-family: var(--font-text);
     font-size: 1.5em;
-
-    width: 110px;
-    padding: 20px;
-    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #FF0000;
 }
 
 
-div.div1 {
+div.container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly; /* Centraliza horizontalmente */
     justify-content: center;
-    align-items: center;
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite quebrar linha se necessário */
 }
 
-div.div2 {
+div.container h4.box {
+    position: absolute;
+    top: 155%;
+}
+
+div.container2 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly; /* Centraliza horizontalmente */
     justify-content: center;
-    align-items: center;
-    margin-bottom: 300px;
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite quebrar linha se necessário */
+    margin-bottom: 150px;
 }
 
 main article {
     background-image: radial-gradient(circle, #BA4033, #B01324);
-    max-width: 700px;
-    text-indent: 20px;
-    font-size: 1.1em;
-    color: white;
+    max-width: 600px;
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
@@ -165,7 +169,7 @@ main article {
 }
 
 main img {
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -229,7 +233,8 @@ footer p {
     background-color: #FF0000;
     color: #ffffff;
     padding: 20px;
-    margin-top: 300px;
+    padding-top: 50px;
+    margin-top: 150px;
   }
 
   .footer .social-icons {
