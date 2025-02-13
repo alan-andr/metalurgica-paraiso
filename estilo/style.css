@@ -74,7 +74,6 @@ header p {
 nav {
     background-image: linear-gradient(to right, #FF0000,#FFA500);
     padding: 15px;
-    padding-left: 50px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.336);
 }
 
@@ -84,16 +83,15 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 10px;
-    border-radius: 3px;
-    font-size: 16px;
+    padding: 5px;
+    font-size: 1em;
 
 }
 
 
 nav a:hover {
-    color: var(--cor06);
-    background-color: #E4DFDA;
+    color: #E4DFDA;
+    text-decoration: underline;
     transition-duration: .5s;
 }
 
@@ -163,7 +161,7 @@ main h4 {
 
 
 main article {
-    background-image: radial-gradient(circle, #BA4033, #B01324);
+    background-color: #FF3C38;
     max-width: 600px;
     padding-top: 10px;
     padding-right: 10px;
@@ -203,7 +201,7 @@ main h3 {
 
 div.fundo-mapa {
 
-    background: radial-gradient(#FF3C38, #A10214);
+    background: radial-gradient(#FF3C38,#A10214);
     color: white;
     padding: 20px;
     margin: 1px;
@@ -237,7 +235,7 @@ footer h1 {
 }
 
 #footer_content {
-    background-color: #ff0000;
+    background-color: #A20010;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 3rem 3.5rem;
@@ -298,18 +296,19 @@ footer h1 {
 }
 
 .footer-list .footer-link {
-    color: #E4DFDA;
+    color: white;
 }
 
 .footer-list .footer-link:hover {
-    color: white;
+    color: #E4DFDA;
     text-decoration: underline;
 }
 
 #footer_copyright {
+    color: white;
     display: flex;
     justify-content: center;
-    background-color: #FF0000;
+    background-color: #A20010   ;
     font-size: 0.9rem;
     padding: 1.5rem;
     font-weight: 100;
