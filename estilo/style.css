@@ -115,6 +115,7 @@ main > section > h2 {
     padding-bottom: 20px;
     margin-top: 150px;
     text-align: center;
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.401);
 }
 
 main > section > h3 {
@@ -122,6 +123,7 @@ main > section > h3 {
     font-size: 2.5em;
     padding-top: 100px;
     padding-bottom: 100px;
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.401);
 }
 
 main > section > p {
@@ -136,11 +138,10 @@ main h4 {
     font-family: var(--font-text);
     font-size: 2em;
     text-align: start;
-
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.401);
     padding-left: 60px;
     margin-top: 50px;
     margin-bottom: 50px;
-
     color: #ff0000;
     
 }
@@ -168,6 +169,7 @@ main article {
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.473);
 
 }
 
@@ -202,7 +204,7 @@ main h3 {
 
 div.fundo-mapa {
 
-    background-color: #A10214;
+    background: radial-gradient(#FF3C38, #A10214);
     color: white;
     padding: 20px;
     margin: 1px;
@@ -210,6 +212,7 @@ div.fundo-mapa {
     text-align: center;
     max-width: 800px;
     margin: auto;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.449);
 }
 
 div.fundo-mapa p {
@@ -227,6 +230,7 @@ footer {
 
 footer h1 {
     font-family: var(--font-title);
+    
 }
 
 .footer-link {
@@ -234,14 +238,19 @@ footer h1 {
 }
 
 #footer_content {
-    background-color: #FF0000;
+    background-color: #ff0000;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 3rem 3.5rem;
 }
 
 #footer-contacts h1 {
-    margin-bottom: 0.75rem;    
+    margin-bottom: 0.75rem;  
+    font-family: var(--font-title2);
+    font-weight: 800;
+    font-variant: small-caps;
+    color: black;
+    text-shadow:#ffffff 1px -1px, #ffffff -1px 1px, #ffffff 1px 1px, #ffffff -1px -1px;
 }
 
 #footer-social-media {
