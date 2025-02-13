@@ -219,6 +219,7 @@ div.fundo-mapa p {
 }
 
 footer {
+    padding-top: 150px;
     width: 100%;
     color: white;
     font-family: var(--font-text);
@@ -313,7 +314,7 @@ footer h1 {
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 565px) {
     #footer_content {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
