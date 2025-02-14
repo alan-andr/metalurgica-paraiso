@@ -161,7 +161,7 @@ main h4 {
 
 
 main article {
-    background-color: #FF3C38;
+    background-image: radial-gradient(#BA1F33, #91171F);
     max-width: 600px;
     padding-top: 10px;
     padding-right: 10px;
