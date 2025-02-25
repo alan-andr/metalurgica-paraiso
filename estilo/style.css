@@ -75,6 +75,8 @@ nav {
     background-image: linear-gradient(to right, #FF0000,#FFA500);
     padding: 15px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.336);
+    position: sticky;
+    top: -1px;
 }
 
 nav a {
