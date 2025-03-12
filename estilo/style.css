@@ -74,9 +74,10 @@ header p {
 nav {
     background-image: linear-gradient(to right, #FF0000,#FFA500);
     padding: 15px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.336);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.099);
     position: sticky;
     top: -1px;
+    text-align: right;
 }
 
 nav a {
@@ -87,14 +88,14 @@ nav a {
     font-weight: bold;
     padding: 5px;
     font-size: 1em;
-
+    display: inline-block;
 }
 
 
 nav a:hover {
-    color: #E4DFDA;
-    text-decoration: underline;
-    transition-duration: .5s;
+    color: #FF0000;
+    transform: scale(1.1);
+    transition-duration: 0.6s;
 }
 
 main {
@@ -152,6 +153,7 @@ main h4 {
         align-items: center;
         justify-content: space;
         justify-content: center;
+        gap: 10px;
         flex-wrap: wrap;
         padding-bottom: 150px;
 }
@@ -176,6 +178,10 @@ main img {
     max-width: 100%;
 }
 
+article {
+    border-radius: 10px;
+    
+}
 
 div.map-container {
     position: relative;
