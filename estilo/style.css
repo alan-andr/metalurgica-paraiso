@@ -310,6 +310,7 @@ footer h1 {
 .footer-list .footer-link:hover {
     color: #E4DFDA;
     text-decoration: underline;
+    transition-duration: .10s;
 }
 
 #footer_copyright {
