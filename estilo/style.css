@@ -171,11 +171,18 @@ main article {
     padding-right: 10px;
     padding-left: 10px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.473);
-
+    
 }
 
 main img {
     max-width: 100%;
+}
+
+main h3 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 article {
@@ -198,14 +205,6 @@ div.map-container iframe {
     height: 100%;
     border: 0;
 }
-
-main h3 {
-    font-size: 2em;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
 
 div.fundo-mapa {
 
